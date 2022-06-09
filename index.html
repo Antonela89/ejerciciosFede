@@ -4,10 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="./src/css/ejercicio3.css">
+
     <title>Document</title>
 </head>
 <body>
-    <script src="./src/js/ejecuciones.js" type="module"></script>
+        <div class="marco">
+            <div class="texto">
+                <img src="https://scontent.fros2-1.fna.fbcdn.net/v/t1.18169-1/1922460_10203215234652691_703516289_n.jpg?stp=c0.7.40.40a_cp0_dst-jpg_p40x40&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeH6AiQrexwKDDVwa1EoWxiq-QQd70qWhEj5BB3vSpaESF8HQl6-nRLWEupVAurjrb4&_nc_ohc=4ALoX8mz6qgAX8P0m91&tn=NtePYxYMGcOQ-Lx2&_nc_ht=scontent.fros2-1.fna&oh=00_AT9mxtIehvsl4-uzxQNI8ULk0PWpBpoTE4LD3XPi20uyJw&oe=62C53A22" alt="">
+                <input placeholder="¿Qué estás pensando, Antonela?" type="text" id="input">
+            </div>
+            <div class="anexo">
+                <div>
+                    <svg fill="currentColor" viewBox="0 0 24 24"  class="svg"><g fill-rule="evenodd" transform="translate(-444 -156)"><g><path d="M113.029 2.514c-.363-.088-.746.014-1.048.234l-2.57 1.88a.999.999 0 0 0-.411.807v8.13a1 1 0 0 0 .41.808l2.602 1.901c.219.16.477.242.737.242.253 0 .508-.077.732-.235.34-.239.519-.65.519-1.065V3.735a1.25 1.25 0 0 0-.971-1.22m-20.15 6.563c.1-.146 2.475-3.578 5.87-3.578 3.396 0 5.771 3.432 5.87 3.578a.749.749 0 0 1 0 .844c-.099.146-2.474 3.578-5.87 3.578-3.395 0-5.77-3.432-5.87-3.578a.749.749 0 0 1 0-.844zM103.75 19a3.754 3.754 0 0 0 3.75-3.75V3.75A3.754 3.754 0 0 0 103.75 0h-10A3.754 3.754 0 0 0 90 3.75v11.5A3.754 3.754 0 0 0 93.75 19h10z" transform="translate(354 158.5)"></path><path d="M98.75 12c1.379 0 2.5-1.121 2.5-2.5S100.129 7 98.75 7a2.503 2.503 0 0 0-2.5 2.5c0 1.379 1.121 2.5 2.5 2.5" transform="translate(354 158.5)"></path></g></g></svg>
+                    <h4>Video en Vivo</h4>
+                </div>
+                <div>
+                    <svg fill="currentColor" viewBox="0 0 24 24"  class="svg"><g fill-rule="evenodd" transform="translate(-444 -156)"><g><path d="m96.968 22.425-.648.057a2.692 2.692 0 0 1-1.978-.625 2.69 2.69 0 0 1-.96-1.84L92.01 4.32a2.702 2.702 0 0 1 .79-2.156c.47-.472 1.111-.731 1.774-.79l2.58-.225a.498.498 0 0 1 .507.675 4.189 4.189 0 0 0-.251 1.11L96.017 18.85a4.206 4.206 0 0 0 .977 3.091s.459.364-.026.485m8.524-16.327a1.75 1.75 0 1 1-3.485.305 1.75 1.75 0 0 1 3.485-.305m5.85 3.011a.797.797 0 0 0-1.129-.093l-3.733 3.195a.545.545 0 0 0-.062.765l.837.993a.75.75 0 1 1-1.147.966l-2.502-2.981a.797.797 0 0 0-1.096-.12L99 14.5l-.5 4.25c-.06.674.326 2.19 1 2.25l11.916 1.166c.325.026 1-.039 1.25-.25.252-.21.89-.842.917-1.166l.833-8.084-3.073-3.557z" transform="translate(352 156.5)"></path><path fill-rule="nonzero" d="m111.61 22.963-11.604-1.015a2.77 2.77 0 0 1-2.512-2.995L98.88 3.09A2.77 2.77 0 0 1 101.876.58l11.603 1.015a2.77 2.77 0 0 1 2.513 2.994l-1.388 15.862a2.77 2.77 0 0 1-2.994 2.513zm.13-1.494.082.004a1.27 1.27 0 0 0 1.287-1.154l1.388-15.862a1.27 1.27 0 0 0-1.148-1.37l-11.604-1.014a1.27 1.27 0 0 0-1.37 1.15l-1.387 15.86a1.27 1.27 0 0 0 1.149 1.37l11.603 1.016z" transform="translate(352 156.5)"></path></g></g></svg></span>
+                    <h4>Foto/video</h4>
+                </div>
+                <div>
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="svg"><g fill-rule="evenodd" transform="translate(-444 -156)"><g><path d="M107.285 13c.49 0 .841.476.712.957-.623 2.324-2.837 4.043-5.473 4.043-2.636 0-4.85-1.719-5.473-4.043-.13-.48.222-.957.712-.957h9.522z" transform="translate(353.5 156.5)"></path><path fill-rule="nonzero" d="M114.024 11.5c0 6.351-5.149 11.5-11.5 11.5s-11.5-5.149-11.5-11.5S96.173 0 102.524 0s11.5 5.149 11.5 11.5zm-2 0a9.5 9.5 0 1 0-19 0 9.5 9.5 0 0 0 19 0z" transform="translate(353.5 156.5)"></path><path d="M99.524 8.5c0 .829-.56 1.5-1.25 1.5s-1.25-.671-1.25-1.5.56-1.5 1.25-1.5 1.25.671 1.25 1.5m8.5 0c0 .829-.56 1.5-1.25 1.5s-1.25-.671-1.25-1.5.56-1.5 1.25-1.5 1.25.671 1.25 1.5m-.739 4.5h-9.522c-.49 0-.841.476-.712.957.623 2.324 2.837 4.043 5.473 4.043 2.636 0 4.85-1.719 5.473-4.043.13-.48-.222-.957-.712-.957m-2.165 2c-.667.624-1.592 1-2.596 1a3.799 3.799 0 0 1-2.596-1h5.192" transform="translate(353.5 156.5)"></path></g></g></svg>
+                    <h4>Sentimiento/actividad</h4>
+                </div>
+            </div>
+        </div>
 
+    
+        <dialog id="ventana">
+            <div class="emergente">
+                <div class="encabezado">
+                    <h3>Crear Publicación</h3>
+                    <i data-visualcompletion="css-img" class="cruz" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/RvORnz8r8UF.png?_nc_eui2=AeHEqbm11ZogdaLSekSOHNq5Wua4RNbPmPta5rhE1s-Y-0PZ9drn5AZZhkO3ItzBHUI&quot;); background-position: 0px -92px; background-size: auto; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                </div>
+                <div class="comentario">
+                    <div class="encabezadoCom">
+                        <div class="usuario">
+                            <img src="https://scontent.fros2-1.fna.fbcdn.net/v/t1.18169-1/1922460_10203215234652691_703516289_n.jpg?stp=c0.7.40.40a_cp0_dst-jpg_p40x40&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeH6AiQrexwKDDVwa1EoWxiq-QQd70qWhEj5BB3vSpaESF8HQl6-nRLWEupVAurjrb4&_nc_ohc=4ALoX8mz6qgAX8P0m91&tn=NtePYxYMGcOQ-Lx2&_nc_ht=scontent.fros2-1.fna&oh=00_AT9mxtIehvsl4-uzxQNI8ULk0PWpBpoTE4LD3XPi20uyJw&oe=62C53A22" alt="">
+                        </div>
+                        <div>
+                            <h3>Antonela Borgogno</h3>
+                            <h3>Público</h3>
+                        </div>
+                    </div>
+                    <h3 id="h3">¿Qué estás pensando, Antonela?</h3>
+                    <div class="colorYEmoticon">
+                        <div class="color">
+                            <img src="https://www.facebook.com/images/composer/SATP_Aa_square-2x.png" style="height: 24px; width: 24px"></img>
+                        </div>
+                        <div class="emoticon">
+                            <i data-visualcompletion="css-img" style="height: 24px; width: 24px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/jGPeVkoyfaB.png?_nc_eui2=AeEiWEhtnzCriTGxr6I1NBeVyFGGdeh7aYnIUYZ16HtpiVdfj_sUPjJnXM5MoI8BNDU&quot;); background-position: 0px -133px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="agregados">
+                    <div class="iconos">
+                        <div>
+                            <h4>Agregar a tu publicación</h4>
+                        </div>
+                        <div>
+                            <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 24px; width: 24px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/jGPeVkoyfaB.png?_nc_eui2=AeEiWEhtnzCriTGxr6I1NBeVyFGGdeh7aYnIUYZ16HtpiVdfj_sUPjJnXM5MoI8BNDU&quot;); background-position: 0px -233px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                        </div>
+                        <div>
+                            <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 24px; width: 24px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/jGPeVkoyfaB.png?_nc_eui2=AeEiWEhtnzCriTGxr6I1NBeVyFGGdeh7aYnIUYZ16HtpiVdfj_sUPjJnXM5MoI8BNDU&quot;); background-position: 0px -208px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                        </div>
+                        <div>
+                            <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 24px; width: 24px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/jGPeVkoyfaB.png?_nc_eui2=AeEiWEhtnzCriTGxr6I1NBeVyFGGdeh7aYnIUYZ16HtpiVdfj_sUPjJnXM5MoI8BNDU&quot;); background-position: 0px -183px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                        </div>
+                        <div>
+                            <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 24px; width: 24px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/HyeXO0sd7uk.png?_nc_eui2=AeHg4dz94NhcU8h_pUJQlRt435jAF9obhc_fmMAX2huFzzaPJbwjziJJsR9yeLUKE3o&quot;); background-position: 0px -225px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                        </div>
+                        <div>
+                            <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 24px; width: 24px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yf/r/IUYFS2LyvHB.png?_nc_eui2=AeFn6YDdTWWfqLk8kJmTvgYBIna-YhZehLoidr5iFl6Eujy2tpAMA5VZCrKtlpjfdsw&quot;); background-position: 0px -100px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                        </div>
+                        <div>
+                            <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 24px; width: 24px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/jGPeVkoyfaB.png?_nc_eui2=AeEiWEhtnzCriTGxr6I1NBeVyFGGdeh7aYnIUYZ16HtpiVdfj_sUPjJnXM5MoI8BNDU&quot;); background-position: 0px -108px; background-size: auto; background-repeat: no-repeat; display: inline-block;"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="submit">Publicar</button>
+                    </div>
+                </div>
+            </div>
+    </dialog>
+
+    <!--script-->
+    <script src="./src/js/ejercicio3/ejercicio3.js" type="module"></script>
 </body>
 </html>

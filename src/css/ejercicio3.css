@@ -1,0 +1,163 @@
+.marco {
+    width: 500px;
+    height: 100px;
+    border: 1px solid;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+.marco .texto{
+    width: 468px;
+    height: 40px;
+    margin: 8px;
+    padding-bottom: 8px;;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-items: center;
+}
+
+.marco .texto img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.marco .texto input{
+    width: 100%;
+    height: 40px; 
+    box-sizing: border-box;
+    padding-left: 12px;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+
+.marco .anexo{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.marco .anexo div{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.marco .anexo .svg{
+    width: 30px;
+    height: 30px;
+}
+
+.marco .anexo h4{
+    margin: 0px;
+    margin-left: 8px;
+}
+
+/*----*/
+#ventana{
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#ventana::backdrop{
+    background-color:darkgrey;
+    opacity: 0.5;
+}
+
+.emergente {
+    width: 500px;
+    height: 400px;
+}
+
+.emergente .encabezado{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+
+.emergente .encabezado h3{
+    width: 85%;
+    margin: 0px;
+}
+
+/*----*/
+.emergente .comentario{
+    width: 100%;
+    height:275px;
+    border-bottom: 1px solid black;
+}
+
+.emergente .comentario .encabezadoCom{
+    width: 100%;
+    display: flex;
+}
+
+.emergente .comentario .encabezadoCom .usuario img{
+    align-items: center;
+    justify-items: center;
+    border-radius: 20px;
+}
+
+.emergente .comentario .encabezadoCom div h3{
+    margin: 0px;
+    margin-left: 8px;
+}
+
+.emergente .comentario #h3{
+    padding-bottom: 135px;
+}
+
+.emergente .comentario .colorYEmoticon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.emergente .comentario .colorYEmoticon .color {
+    width: 90%;
+}
+
+.emergente .comentario .colorYEmoticon .emoticon{
+    width: 10%;
+}
+
+/*-----*/
+.emergente .agregados{
+    width: 100%;
+    height: 90px;
+    align-items: center;
+
+}
+
+.emergente .agregados .iconos{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 8px 0px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.emergente .agregados .iconos i{
+    margin: 8px;
+}
+
+.emergente .agregados .iconos h4{
+    margin: 0px;
+}
+
+.emergente .agregados div button{
+    width: 100%;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:darkgrey;
+}
+
+
